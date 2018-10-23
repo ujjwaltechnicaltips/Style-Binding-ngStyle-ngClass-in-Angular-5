@@ -1,0 +1,9 @@
+
+app.component.html
+<h1 [style.color]="inlineColor">Child data</h1>
+
+app.component.ts
+export class AppComponent {
+  inlineColor:string = "red";
+
+}
