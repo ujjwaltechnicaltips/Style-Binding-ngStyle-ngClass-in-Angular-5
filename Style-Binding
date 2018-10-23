@@ -1,6 +1,8 @@
 
 app.component.html
 <h1 [style.color]="inlineColor">Child data</h1>
+----------------------------------------------------------------------
+<h1 [style.color]="inlineColor ? 'orange' : 'green '">Child data</h1>
 
 app.component.ts
 export class AppComponent {
